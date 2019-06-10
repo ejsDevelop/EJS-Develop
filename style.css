@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(gray, lightblue);
+}
+
+textarea {
+    width: 100%;
+}
+
+.opening h1 {
+    font-size: 60 px;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    line-height: 10px;
+}
+
+/* TRY THIS BUTTON */
+
+#color {
+    color: rgb(255, 89, 0);
+    border-radius: 5px;
+    background-color: lightblue;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#color:hover {
+    color: rgb(66, 7, 7);
+    background-color: aquamarine;
+}
+
+/* Pics */
+
+.wedding-pic-container {
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 5px green;
+    margin-bottom: 10px;
+}
+
+.wedding-pic-container img {
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+    overflow: auto;
+
+}
+
+.wedding-pic-container img.panorama {
+    height: 400px;
+    overflow: auto;
+
+}
+
+.wedding-pic-container .group {
+    margin: 0 auto;
+
+}
+
+.wedding-pic-container .pic10 {
+    
+
+}
+
+.wedding-pic-container .pic20 {
+    
+}
+
+/*  Blog mention */
+.blog-mention {
+    color: whitesmoke;
+    
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 400px) {
+
+    img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .wedding-pic-container img.panorama {
+        display: none;
+    }
+
+    .wedding-pic-container p,
+    h1 {
+        text-align: center;
+    }
+
+    #makemeblink {
+        text-align: center;
+    }
+}
+
+/* Box Container */
+
+#box-container {
+    border: 1px solid yellow;
+    margin-top: 65px;
+    display: flex;
+    margin-bottom: 33px;
+    height: 30px;
+    width: 100%;
+    background-color: lightpink;
+
+}
+
+#box-1 {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    flex-basis: 1;
+    flex-grow: 2;
+}
+
+#box-2 {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    flex-grow: 1;
+}
+
+#box-3 {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    flex-grow: 2;
+
+}
+
+#box-4 {
+    background-color: yellow;
+    flex-basis: 1;
+    flex-grow: 2;
+}
+
+#box-5 {
+    background-color: gray;
+    flex-basis: 1;
+    flex-grow: 3;
+}
+
+#box-6 {
+    background-color: Orange;
+    flex-basis: 1;
+    flex-grow: 2;
+}
+
+
+
+/* Make me blink intro paragraph   */
+
+#makemeblink {
+    margin-top: 50px; 
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+
+
+
+/* NAV BAR */
+
+
+
+/* QUOTEFORM  */
+
+#quote-input {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.color {
+
+}
+
+
+.footer {
+    font-size: 20px;
+    color: brown;
+    padding: 20px;
+}

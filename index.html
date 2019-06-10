@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://eschjol.imgur.com/all#1">Pics <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Favorites
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.google.com/">Google</a>
+                        <a class="dropdown-item" href="https://www.apple.com/">Apple</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="http://www.espn.com/golf/player/_/id/388/adam-scott">Adam
+                            Scott</a>
+                    </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-.1">
+                <gcse:searchbox-only
+                    qresultsUrl="http://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test">
+                </gcse:searchbox-only>
+            </form>
+        </div>
+    </nav>
+
+<br>
+
+    <!---------OPENING------------>
+    <div class="opening">
+        <h1><strong>Hello World!</strong></h1> 
+
+        <button id="color" onclick="myFunction()">Try this</button>
+        <p id="demo"></p>
+    </div>
+<br>
+
+
+    <!--------------BLOG------------------>
+<h5 class="blog-mention">Please follow by golf blog <a href="https://ejsdevelop.github.io/Golf-Blog/"> here.</a>This rudimentary blog, like this webpage, is practice.</h5>
+
+
+
+    <!--------QUOTEFORM--------------->
+    <form name="quoteForm">
+        <textarea id="quote-input" wrap="virtual" name="quoteHere" Rows=2 Cols=90>
+          Random Quotes
+        </textarea>
+        <input type=button class="btn btn-info" value="Previous" onClick="prevQuote();">
+        <input type=button class="btn btn-warning" value="Next" onClick="nextQuote();">
+        <input type=button class="btn btn-danger" value="Random" onclick="randQuote();">
+    </form>
+
+
+
+    <div id="box-container">
+        <div id="box-1"></div>
+        <div id="box-2"></div>
+        <div id="box-3"></div>
+        <div id="box-4"></div>
+        <div id="box-5"></div>
+        <div id="box-6"></div>
+    </div>
+
+    <div id="makemeblink">
+        <p>Please follow along with me in my quest to learn software development. Right now my focus is on HTML/CSS and JavaScript.</p>
+    </div>
+
+    <br>
+........................
+
+    <div class="wedding-pic-container">
+        <img class="pic10" src="./Resources/images/Julie and Me - Imgur.jpg" alt="">
+        <img class="pic20" src="./Resources/images/Julie&Erik-13.jpeg" alt="">
+        <img class="pic8" src="./Resources/images/J-NY.jpg" alt="">
+        <img src="./Resources/images/UT.jpg" alt="">
+        <img class="pic3" src="./Resources/images/yard1.jpg" alt="">
+        <img class="pic2" src="./Resources/images/NV.jpg" alt="">
+        
+        <img class="pic4" src="./Resources/images/ejsTulsa2019.jpg" alt="">
+         <img class="pic5" src="./Resources/images/us1.jpg" alt="">
+        
+         <img class="pic19" src="./Resources/images/NV.jpg" alt="">
+         <img src="./Resources/images/fiveKids.jpg" alt="">
+         
+        <img class="pic6" src="./Resources/images/momHatMN.jpg" alt="">
+        <img class="pic17" src="./Resources/images/lenAndPam.jpg" alt="">
+        <img class="pic11" src="./Resources/images/adamScott03.png" alt="">
+        <img class="pic13" src="./Resources/images/Pam-UT.jpg" alt="">
+        <img class="pic12" src="./Resources/images/NV3.jpg" alt="">
+        <img src="./Resources/images/momDadMe.jpg" alt="">
+        <img class="pic13" src="./Resources/images/AdamScott.jpg" alt="">
+        <img class="pic14" src="./Resources/images/ForestPark11.jpg" alt="">
+        <img class="pic7" src="./Resources/images/House-Plants.jpg" alt="">
+        <img src="./Resources/images/Julie&Erik-50.jpg" alt="">
+        
+        <img class="pic1" src="./Resources/images/ourWedding.jpg">
+        <img src="./Resources/images/dadAmy.jpg" alt="">
+        <img class="panorama" src="./Resources/images/PanNV1.jpg" alt="">
+        
+    </div>
+
+
+
+    <div>
+        <ul class='menu'>
+            <li class='dropdown'><span>Features ▾</span></li>
+            <li><a href='#https://ejsdevelop.github.io/Golf-Blog/'>Blog</a></li>
+            <li><a href='#'>Subscribe</a></li>
+            <li><a href='#'>About</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <hr>
+
+    <!-----------HANGMAN--------->
+
+
+
+    <!---------GOOGLE SEARCH---------->
+    <gcse:searchbox-only
+        qresultsUrl="http://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test">
+    </gcse:searchbox-only>
+
+    
+
+
+    <!----------FOOTER---------->
+    <footer class="footer">
+        <div id="copyright">
+            <p>@ejsDevelop</p>
+        </div>
+    </footer>
+
+
+    <!-------------JavaScript------------------>
+    <script src="./Resources/buttonColor.js"></script>
+    <script src="./Resources/ultrandom.js"></script>
+    <script src="./Resources/script.js"></script>
+    <script src="./Resources/search.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="./Resources/blinking.js"></script>
+
+</body>
+
+</html>

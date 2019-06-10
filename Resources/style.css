@@ -1,0 +1,189 @@
+.container {
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+  background-color: white;
+  align-items: center;
+  padding: 7px 0 7px 0;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 0;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 2;
+}
+
+.corps {
+  position: relative;
+  top: 80px;
+}
+
+a {
+  color : black;
+  padding: 10px;
+}
+
+.nav {
+flex-shrink: 1;
+margin-right: 30px;
+font-size: 16px;
+}
+
+.time {
+flex-grow: 2;
+margin-left: 15px;
+color: mediumaquamarine;
+font-size: 16px;
+}
+
+.image {
+  margin-left: 25px;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.left-column {
+  width: 630px;
+}
+
+.middle-column {
+  width: 300px;
+}
+
+.right-column {
+  width: 260px;
+}
+
+.pictured-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 630px;
+  height: 300px;
+  background-image: url("./images/Main\ Story.png");
+}
+
+.pictured-text2 {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-image: url("./images/Fall\ Season.png");
+  width: 300px;
+}
+
+.pictured-text3 {
+  display: flex;
+  align-items: center;
+  height: 300px;
+background-image: url("./images/Hipster\ Cameraman.png");
+}
+
+.pictured-text4 {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("./images/Cat\ CEO.png");
+}
+
+.square {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  flex-basis: 580px;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 40px;
+}
+
+.second-container {
+  display: flex;
+  width: 630px;
+  justify-content: center;
+}
+
+.square1 {
+  font-family: Georgia;
+  font-size: 15px;
+  color: black;
+  width: 300px;
+}
+
+.left-column2 {
+flex-basis: 570px;
+}
+
+.right-column2 {
+flex-basis: 500px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+
+h1.one {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin-top: 85px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+div.footer-text {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  margin-right: 25px;
+  padding-right: 25px;
+}
+
+.footer-text3 {
+  position: absolute;
+  top: 1310px;
+}
+
+.foot {
+  margin-bottom: 10px;
+}
