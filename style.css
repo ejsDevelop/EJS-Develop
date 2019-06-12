@@ -40,7 +40,7 @@ textarea {
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
-    border: solid 5px green;
+    
     margin-bottom: 10px;
 }
 
@@ -80,6 +80,10 @@ textarea {
 .blog-mention {
     color: whitesmoke;
     
+}
+
+.blog-mention a {
+    color: yellow;
 }
 
 
@@ -187,9 +191,6 @@ textarea {
     margin-bottom: 0px;
 }
 
-.color {
-
-}
 
 
 .footer {
