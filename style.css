@@ -13,12 +13,17 @@ textarea {
     width: 100%;
 }
 
-.opening h1 {
-    font-size: 60 px;
+strong {
+    font-size:63px;
+}
+
+.opening h1{
+    font-size: 20 px;
     color: white;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    line-height: 10px;
+    line-height: 40px;
+    font-weight: bold;
 }
 
 /* TRY THIS BUTTON */
