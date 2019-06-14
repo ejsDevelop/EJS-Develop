@@ -14,9 +14,7 @@ textarea {
     width: 100%;
 }
 
-strong {
-    font-size:40px;
-}
+
 
 .opening h1{
     font-size: 20 px;
@@ -34,12 +32,20 @@ strong {
     border-radius: 5px;
     background-color: lightblue;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
+    font-weight: 600;
+
 }
 
 #color:hover {
     color: rgb(66, 7, 7);
     background-color: aquamarine;
+}
+
+.agency {
+    color: brown;
+    font-weight: bold;
 }
 
 /* Pics */
