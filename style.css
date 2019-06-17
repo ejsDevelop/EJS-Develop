@@ -45,6 +45,26 @@ textarea {
     background-color: aquamarine;
 }
 
+/*    Project list    */
+.projects {
+    color: rgb(31, 19, 83);
+}
+
+.projects ul {
+    color: rgb(31, 19, 83);
+}
+
+.projects li a{
+    color: blue;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
 .agency {
     color: brown;
     font-weight: bold;
