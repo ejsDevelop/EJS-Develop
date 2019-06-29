@@ -1,0 +1,53 @@
+body{
+    color:silver;
+    background-color: #0555a7;
+}
+.background3{
+    color:black;
+    font-size: 12px;    
+    text-align: center;
+    background-image: url("images/style1.jpg");
+    background-blend-mode: soft-light;
+    
+    
+}
+.background{
+    background-color: #629d9c;
+    background-image: url("images/style2.jpg");
+    background-size:contain;
+}
+.background2{
+    background-color: #42dff4;
+    color: black;
+    
+}
+#newGameButton2Call{
+    color: silver;    
+    background:#5f5f5e;
+    border-radius: 20px;    
+    font-size: 26px;
+    box-shadow: 0 6px;
+    outline: none;
+    display: block;
+}
+#newGameButton2Call :hover{
+box-shadow: 5px;
+top: 6px;
+}
+#newGameButton2Call :active{
+    box-shadow: 0;
+    top: 0;
+}
+#placeholder2CallWaittttttttt{
+    letter-spacing: 5px;
+    font-size: 25px;
+    
+}
+#place-holder-section2Call{
+    
+    letter-spacing: 5px;
+}
+#guessedletters2Call{
+    color: red;
+    font-size: 30px;
+}

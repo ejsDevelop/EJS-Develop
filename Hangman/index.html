@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>hangman!</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./hangman.css">
+    
+  </head>
+  <body>
+  <body>
+    <div class="jumbotron jumbotron-fluid background">
+      <div class="container">
+        <div class="row align-items-center background3">
+            <div class="col-12 col-md-8">
+              
+              <h1 >HangMan</h1>
+            </div>
+            <div class="col-12 col-md-4">
+              
+              <button id="newGameButton2Call">
+                  <i class="far fa-keyboard"></i>
+                Start A New Game
+              </button>
+            </div>
+        </div>        
+      </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" ></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h3>Fill these in!
+              <br>
+              <span id="place-holder-section2Call">______</span>
+              </h3>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Incorrect Letters!
+                    <br>
+                    <span id="guessedletters2Call"></span>
+                  </h3>
+            </div>
+          </div>
+        </div>        
+      </div> 
+      <div class="jumbotron jumbotron-fluid background2">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center">
+            <h4>
+              Wins: <span id="win2Call">0</span>
+            </h4>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+              <h4>
+                Guessed Left: <span id="guessed-left2Call">0</span>
+              </h4>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <h4>
+                  Losses: <span id="losses2Call">0</span>
+                </h4>
+              </div>
+        </div>
+      </div> 
+      </div>   
+
+    
+
+    <script type="text/javascript"></script>
+    <script src="./hangman.js"></script>
+</body>
+</html>
