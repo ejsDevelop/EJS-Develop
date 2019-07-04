@@ -179,6 +179,11 @@ div.footer-text {
   padding-right: 25px;
 }
 
+.javascript :hover {
+  color: yellow;
+  hover: green;
+}
+
 .footer-text3 {
   position: absolute;
   top: 1310px;
