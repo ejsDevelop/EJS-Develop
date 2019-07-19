@@ -15,6 +15,8 @@
 </head>
 
 <body>
+
+<!--======================= NAVBAR ===============================-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -39,23 +41,24 @@
                         <a class="dropdown-item" href="https://www.google.com/">Google</a>
                         <a class="dropdown-item" href="https://www.apple.com/">Apple</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="http://www.espn.com/golf/player/_/id/388/adam-scott">Adam Scott</a>
+                        <a class="dropdown-item" href="http://www.espn.com/golf/player/_/id/388/adam-scott">Adam
+                            Scott</a>
                     </div>
             </ul>
         </div>
     </nav>
 
-    <br>
-    
    
 
-    <!---------OPENING------------>
+
+
+<!-------------------------------OPENING------------------------------->
     <div class="opening">
         <h1><strong>Hello World!</strong></h1>
     </div>
 
 
-    <!------------TRY THIS BUTTON---------->
+<!--------------------------TRY THIS BUTTON------------------------------>
     <div class="color-button">
         <button id="color" onclick="myFunction()">Try this baby JavaScript button</button>
     </div>
@@ -63,16 +66,19 @@
 
 
 
-    <!--------------BLOG------------------>
-
-
+<!---------------------------------BLOG---------------------------------->
     <div class="jumbotron jumbotron-fluid" style="background-color:rgb(52, 129, 133);">
         <div class="container">
             <h5 class="blog-mention">Please follow my golf blog <a href="https://ejsdevelop.github.io/Golf-Blog/"
-                    target="_blank"> <strong>HERE</strong>.</a>This rudimentary blog, like this webpage, is practice.  Right now my focus is on HTML/CSS Bootstrap JavaScript</h5>
+                    target="_blank"> <strong>HERE</strong>.</a>This rudimentary blog, like this webpage, is practice.
+                Right now my focus is on HTML/CSS, Bootstrap and JavaScript</h5>
         </div>
     </div>
 
+
+
+
+<!--------------------------------- MY PROJECTS --------------------------->
     <div class="projects">
         <h6><strong>My Projects</strong></h6>
         <ul>
@@ -85,7 +91,9 @@
 
 
 
-<!--------RANDOM--QUOTE--FORM--------------->
+
+
+<!------------------------RANDOM QUOTE FORM-------------------------->
     <form name="quoteForm">
         <textarea id="quote-input" wrap="virtual" name="quoteHere" Rows=2 Cols=90>
           Random Quotes
@@ -96,7 +104,7 @@
     </form>
 
 
-<!--------BOX-CONTAINER--------->
+<!--------------------------BOX-CONTAINER-------------------------->
     <div id="box-container">
         <div id="box-1"></div>
         <div id="box-2"></div>
@@ -107,7 +115,22 @@
     </div>
 
 
-<!-------PICTURES--------->
+
+<!------------------------------MY CLOCK ------------------------------->
+    <div id="timepicker"></div>
+    <script type="text/javascript" src="https://zulns.github.io/Timepicker.js/timepicker.js"></script>
+    <script type="text/javascript">
+        let timepicker = new Timepicker();
+        document.getElementById('timepicker').appendChild(timepicker.getElement());
+        // or use
+        // timepicker.attachTo(document.getElementById('timepicker'));
+        // other code
+    </script>
+
+
+
+
+<!--------------------------PICTURES---------------------------->
     <div class="wedding-pic-container">
         <img class="pic10" src="./Resources/images/Julie and Me - Imgur.jpg" alt="">
         <img class="pic20" src="./Resources/images/Julie&Erik-13.jpeg" alt="">
@@ -158,7 +181,7 @@
 
 
 
-<!--------DROP-DOWN-BOX--------->
+<!------------------------------DROP-DOWN-BOX--------------------------------->
     <div>
         <ul class='menu'>
             <li class='dropdown'><span>Features ▾</span></li>
@@ -170,22 +193,24 @@
 
     <hr>
 
-<!-----------HANGMAN--------->
+<!-------------------------------HANGMAN------------------------------>
 
 
-<!----------EMBEDDED MAP--------->
-<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13251586.841206303!2d-109.97884353190207!3d35.818324458388204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x87d8b5bbfdcdc047%3A0x2ba9b6a522b830af!2s4991+Pernod+Ave%2C+St.+Louis%2C+MO+63139-1251%2C+USA!3m2!1d38.595106699999995!2d-90.2757603!4m5!1s0x872bad379ca964cf%3A0x95f16d3cd86e6da0!2s4523+E+Lantern+Pl%2C+Gilbert%2C+AZ+85297!3m2!1d33.2678915!2d-111.6925527!5e0!3m2!1sen!2sus!4v1561598367141!5m2!1sen!2sus" width="400"  frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--------------------------------EMBEDDED MAP--------------------------->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13251586.841206303!2d-109.97884353190207!3d35.818324458388204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x87d8b5bbfdcdc047%3A0x2ba9b6a522b830af!2s4991+Pernod+Ave%2C+St.+Louis%2C+MO+63139-1251%2C+USA!3m2!1d38.595106699999995!2d-90.2757603!4m5!1s0x872bad379ca964cf%3A0x95f16d3cd86e6da0!2s4523+E+Lantern+Pl%2C+Gilbert%2C+AZ+85297!3m2!1d33.2678915!2d-111.6925527!5e0!3m2!1sen!2sus!4v1561598367141!5m2!1sen!2sus"
+        width="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<br>
+    <br>
+
+<!--------------------- JAVASCRIPT RANDOM MATH  --------------------->
+    <button class="javascript" onclick="myFunction()">Try this random math generator button</button>
+
+    <p id="demo"></p>
 
 
-<button class="javascript" onclick="myFunction()">Try this random math generator button</button>
 
-<p id="demo"></p>
-
-
-
-<!---------GOOGLE SEARCH---------->
+<!-------------------------------GOOGLE SEARCH------------------------->
     <gcse:searchbox-only
         qresultsUrl="http://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test">
     </gcse:searchbox-only>
@@ -193,7 +218,7 @@
 
 
 
-    <!----------FOOTER---------->
+<!----------------------------FOOTER------------------------------------->
     <footer class="footer">
         <A HREF="mailto:erik@ejsdevelop.com">Click Here To Email Me</A>
         </div>
@@ -201,7 +226,7 @@
 
 
 <!-------------JavaScript------------------>
- 
+    <script src="./Resources/myClock.js"></script>
     <script src="./Resources/buttonColor.js"></script>
     <script src="./Resources/ultrandom.js"></script>
     <script src="./Resources/script.js"></script>
