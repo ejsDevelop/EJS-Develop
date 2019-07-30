@@ -146,8 +146,8 @@ textarea {
     display: flex;
     margin-bottom: 33px;
     height: 30px;
-    width: 100%;
     background-color: lightpink;
+    flex-wrap: wrap-reverse;
 
 }
 
